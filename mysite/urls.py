@@ -21,6 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', views.hello),
     path('index1/', include('hello2app.urls')),
+    path('msggate/', include('msgapp.urls')),
 #    path('index3/', include('hello2app.urls')),
 #    path('/', views.hello)
 ]
